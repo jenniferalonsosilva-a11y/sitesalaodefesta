@@ -9,7 +9,6 @@ design system do PDF oficial do espaço.
 ## Estrutura
 
 ```
-espaco-dliras/
 ├── index.html          página única com todas as seções
 ├── css/styles.css      design system (cores, tipografia, formas, responsivo)
 ├── js/main.js          menu mobile, scroll spy, animações, botão flutuante
@@ -54,16 +53,22 @@ espaco-dliras/
 
 **Tipografia**: Playfair Display (títulos e logo) · Mulish (texto) · Great Vibes (assinatura).
 
-Detalhes completos em [`espaco-dliras/DESIGN-SYSTEM.md`](espaco-dliras/DESIGN-SYSTEM.md).
+Detalhes completos em [`DESIGN-SYSTEM.md`](DESIGN-SYSTEM.md).
 
 ## Como rodar
 
 ```bash
 python3 -m http.server 8137
-# http://localhost:8137/espaco-dliras/
+# http://localhost:8137/
 ```
 
-Ou basta abrir `espaco-dliras/index.html` no navegador.
+Ou basta abrir `index.html` no navegador.
+
+## GitHub Pages
+
+**Settings → Pages → Build and deployment → Source: Deploy from a branch**,
+branch `main`, pasta `/ (root)` e salvar. O site fica em
+`https://jenniferalonsosilva-a11y.github.io/sitesalaodefesta/`.
 
 ## Qualidade
 
